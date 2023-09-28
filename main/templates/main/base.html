@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+    {% block header %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        {% block header_title %}
+        {% endblock %}
+        <a href="{% url 'egor' %}">Єгор</a>
+        <a href="{% url 'taisia' %}">Таїсія</a>
+        <a href="{% url 'max' %}">Максим</a>
+        <a href="{% url 'artem' %}">Артем</a>
+    </header>
+    <main>
+        {% block content %}
+
+        {% endblock %}
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
