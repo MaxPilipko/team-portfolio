@@ -1,19 +1,6 @@
-h1 {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    width: 1px;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: bisque;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#main-href {
+    font-size: 30px;
 }
 
 header {
@@ -22,16 +9,30 @@ header {
     align-items: center;
     background-color: rgb(215, 77, 77);
     height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header a {
+    color: bisque;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
 footer {
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(215, 77, 77);
+    /* background-color: rgb(215, 77, 77); */
     min-width: 100%;
     min-height: 10%;
 }
