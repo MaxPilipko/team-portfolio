@@ -1,1 +1,59 @@
 {% extends 'main/base.html' %}
+{% load static %}
+
+{% block header %}
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div id="text-div">
+        <p>Вітаємо на головній сторінці нашої команди!</p>
+    </div>
+
+    <div id="main-photo-div">
+        <div class="photo-div">
+            <figure>
+                <center>
+                    <a href="{% url 'egor' %}"><img src="{% static 'main/img/egor.png' %}" alt="Picture of Egor"></a>
+                    <figcaption><a href="{% url 'egor' %}" class="biography-ref">Гончаров Єгор</a></figcaption>
+                </center>
+            </figure>
+        </div>
+    </div>
+
+
+    <div id="main-photo-div">
+        <div class="photo-div">
+            <figure>
+                <center>
+                    <a href="{% url 'max' %}"><img src="{% static 'main/img/max.png' %}" alt="Picture of Max"></a>
+                    <figcaption><a href="{% url 'max' %}" class="biography-ref">Пилипко Максим</a></figcaption>
+                </center>
+            </figure>
+        </div>
+    </div>
+
+
+    <div id="main-photo-div">
+        <div class="photo-div">
+            <figure>
+                <center>
+                    <a href="{% url 'artem' %}"><img src="{% static 'main/img/artem.png' %}" alt="Picture of Artem"></a>
+                    <figcaption><a href="{% url 'artem' %} " class="biography-ref">Кучер Артем</a></figcaption>
+                </center>
+            </figure>
+        </div>
+    </div>
+
+    <div id="main-photo-div">
+        <div class="photo-div">
+            <figure>
+                <center>
+                    <a href="{% url 'taisia' %}"><img src="{% static 'main/img/taisia.png' %}" alt="Picture of Taisiia"></a>
+                    <figcaption><a href="{% url 'taisia' %}" class="biography-ref">Кіприч Таїсія</a></figcaption>
+                </center>
+            </figure>
+        </div>
+    </div>
+
+{% endblock %}

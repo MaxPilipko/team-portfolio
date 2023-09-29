@@ -8,7 +8,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(215, 77, 77);
-    height: 75px;
+    height: 65px;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -18,6 +18,11 @@ header a {
     color: bisque;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.9);
 }
 
 * {
@@ -25,14 +30,17 @@ header a {
     padding: 0;
 }
 
+body {
+    background-color: bisque;
+}
 
-footer {
+/* footer {
     position: absolute;
-    /* bottom: 0; */
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(215, 77, 77); */
+    background-color: rgb(215, 77, 77);
     min-width: 100%;
     min-height: 10%;
-}
+} */
