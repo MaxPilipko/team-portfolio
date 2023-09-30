@@ -5,10 +5,10 @@
 - [Libraries and Technologies](#libraries-and-technologies)
 - [Tasks](#tasks)
 ## [Team Info](#team-info)
-- Team Member 1 (Teamlead): [GitHub Profile](https://github.com/MaxPilipko)
-- Team Member 2: [GitHub Profile](https://github.com/Taisiia773)
-- Team Member 3: [GitHub Profile](https://github.com/YehorHoncharov)
-- Team Member 4: [GitHub Profile](https://github.com/Zeith22)
+- Team Member 1 (Teamlead): [Pylypko Maksym](https://github.com/MaxPilipko)
+- Team Member 2: [Kiprych Taisia](https://github.com/Taisiia773)
+- Team Member 3: [Yehor Honcharov](https://github.com/YehorHoncharov)
+- Team Member 4: [Artem Kucher](https://github.com/Zeith22)
 
 ## [Description](#description)
 
