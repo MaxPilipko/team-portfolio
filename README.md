@@ -28,8 +28,9 @@ Our project uses these technologies:
 - ##### [Main task: Fill the biography page](#task-1-task-description)
 
     - **Pylypko Maksym (Teamlead)** declared Task 1.
+    - **Kucher Artem** completed Task 1.
     - **Pylypko Maksym (Teamlead)** completed Task 1.
     - **Kiprych Taisia** completed Task 1.
-    - **Kucher Artem** completed Task 1.
+    - **Honcharov Yehor** completed Task 1.
 
 Completed during **[WorldIT Academy](https://www.worldit.academy/)** training.
